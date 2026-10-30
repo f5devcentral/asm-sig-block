@@ -1,0 +1,23 @@
+# Internal / agent files - never commit
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+internal/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Script output
+*.csv
+backups/
+
+# Local
+.env
+.DS_Store
